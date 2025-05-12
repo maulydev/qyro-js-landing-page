@@ -6,7 +6,6 @@ export const metadata = {
   title: "Qyro-js | Modern Markdown Documentation Generator",
   description:
     "A lightweight JavaScript library for creating stunning static documentation sites from your markdown files in seconds.",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
