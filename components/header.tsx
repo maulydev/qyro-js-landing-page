@@ -43,16 +43,21 @@ const Header = () => {
         </div>
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center space-x-2">
-            <Button variant="ghost" size="icon">
-              <Github className="h-5 w-5" />
-              <span className="sr-only">GitHub</span>
+            <Button asChild variant="ghost" size="icon">
+              <Link href="https://github.com/maulydev/qyro-js">
+                <Github className="h-5 w-5" />
+                <span className="sr-only">GitHub</span>
+              </Link>
             </Button>
             <Button
+              asChild
               variant="default"
               className="bg-gradient-to-r from-teal-500 to-purple-600 hover:from-teal-600 hover:to-purple-700"
             >
-              <span>Download</span>
-              <ArrowRight className="ml-2 h-4 w-4" />
+              <Link href="https://github.com/maulydev/qyro-js">
+                <span>Download</span>
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
             </Button>
           </nav>
         </div>

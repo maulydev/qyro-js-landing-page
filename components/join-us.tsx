@@ -19,18 +19,18 @@ const JoinUs = () => {
           </div>
           <div className="flex flex-wrap items-center justify-center gap-4">
             <Button asChild variant="outline" size="lg" className="gap-2">
-              <Link href="#">
+              <Link href="https://github.com/maulydev">
                 <Github className="h-5 w-5" />
                 <span>GitHub</span>
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="gap-2">
+            {/* <Button asChild variant="outline" size="lg" className="gap-2">
               <Link href="#">
                 <span>Discord</span>
               </Link>
-            </Button>
+            </Button> */}
             <Button asChild variant="outline" size="lg" className="gap-2">
-              <Link href="#">
+              <Link href="https://x.com/maulydotdev">
                 <span>Twitter</span>
               </Link>
             </Button>

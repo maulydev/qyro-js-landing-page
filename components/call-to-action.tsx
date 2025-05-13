@@ -1,7 +1,8 @@
-"use client"
+"use client";
 
 import { motion } from "framer-motion";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const CallToAction = () => {
   return (
@@ -128,11 +129,13 @@ const CallToAction = () => {
                 </div>
                 <div className="flex flex-col gap-2">
                   <Button className="w-full bg-gradient-to-r from-teal-500 to-purple-600 hover:from-teal-600 hover:to-purple-700">
-                    Download QuickJS Docs
+                    Download Qyro-js
                   </Button>
-                  <Button variant="outline" className="w-full">
-                    View Documentation
-                  </Button>
+                  <Link href="https://qyro-js.vercel.app/">
+                    <Button asChild variant="outline" className="w-full">
+                      View Documentation
+                    </Button>
+                  </Link>
                 </div>
               </div>
             </motion.div>

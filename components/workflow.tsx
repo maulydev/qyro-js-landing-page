@@ -1,9 +1,10 @@
-"use client"
+"use client";
 
 import { Terminal, FileText, Zap, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Workflow = () => {
   return (
@@ -153,13 +154,27 @@ const Workflow = () => {
                     code splitting, asset optimization, and SEO enhancements.
                   </p>
                   <div className="mt-4 flex items-center gap-2">
-                    <Button variant="outline" size="sm" className="gap-1">
-                      <ExternalLink className="h-4 w-4" />
-                      <span>Deploy to Vercel</span>
+                    <Button
+                      asChild
+                      variant="outline"
+                      size="sm"
+                      className="gap-1"
+                    >
+                      <Link href="https://vercel.com/">
+                        <ExternalLink className="h-4 w-4" />
+                        <span>Deploy to Vercel</span>
+                      </Link>
                     </Button>
-                    <Button variant="outline" size="sm" className="gap-1">
-                      <ExternalLink className="h-4 w-4" />
-                      <span>Deploy to Netlify</span>
+                    <Button
+                      asChild
+                      variant="outline"
+                      size="sm"
+                      className="gap-1"
+                    >
+                      <Link href="https://www.netlify.com/">
+                        <ExternalLink className="h-4 w-4" />
+                        <span>Deploy to Netlify</span>
+                      </Link>
                     </Button>
                   </div>
                 </motion.div>
