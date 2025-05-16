@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex items-center gap-2">
           <Image
             src="/images/logo.png"
-            alt="QuickJS Docs Logo"
+            alt="Qyro-js docs Logo"
             width={30}
             height={30}
             className="h-8 w-8"

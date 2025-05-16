@@ -19,7 +19,7 @@ const Features = () => {
               Everything You Need
             </h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              QuickJS Docs provides all the tools you need to create beautiful
+              Qyro-js docs provides all the tools you need to create beautiful
               documentation sites with minimal effort.
             </p>
           </div>
@@ -58,9 +58,9 @@ const Features = () => {
             },
             {
               icon: <Terminal className="h-10 w-10 text-purple-500" />,
-              title: "Customizable",
+              title: "MD Studio",
               description:
-                "Easily customize themes and layouts to match your brand.",
+                "Interactive Markdown editor for creating your documentation.",
             },
           ].map((feature, index) => (
             <motion.div

@@ -11,7 +11,7 @@ const Header = () => {
           <Link href="/" className="flex items-center space-x-2">
             <Image
               src="/images/logo.png"
-              alt="QuickJS Docs Logo"
+              alt="Qyro-js docs Logo"
               width={40}
               height={40}
               className="h-10 w-10"

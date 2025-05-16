@@ -19,7 +19,7 @@ const Workflow = () => {
               How It Works
             </h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              Creating documentation with QuickJS Docs is as easy as 1-2-3.
+              Creating documentation with Qyro-js docs is as easy as 1-2-3.
             </p>
           </div>
         </div>
@@ -35,7 +35,7 @@ const Workflow = () => {
                 <div className="flex-1 space-y-4">
                   <h3 className="text-2xl font-bold">Install the CLI</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    Get started by installing the QuickJS Docs CLI globally
+                    Get started by installing the Qyro-js docs CLI globally
                     using npm, yarn, or pnpm.
                   </p>
                   <div className="rounded-lg border bg-muted p-4">
@@ -153,12 +153,12 @@ const Workflow = () => {
                     The build process optimizes your site for performance with
                     code splitting, asset optimization, and SEO enhancements.
                   </p>
-                  <div className="mt-4 flex items-center gap-2">
+                  <div className="mt-4 flex flex-wrap items-center gap-2">
                     <Button
                       asChild
                       variant="outline"
                       size="sm"
-                      className="gap-1"
+                      className="gap-1 flex-1"
                     >
                       <Link href="https://vercel.com/">
                         <ExternalLink className="h-4 w-4" />
@@ -169,7 +169,7 @@ const Workflow = () => {
                       asChild
                       variant="outline"
                       size="sm"
-                      className="gap-1"
+                      className="gap-1 flex-1"
                     >
                       <Link href="https://www.netlify.com/">
                         <ExternalLink className="h-4 w-4" />

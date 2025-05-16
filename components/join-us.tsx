@@ -13,7 +13,7 @@ const JoinUs = () => {
               Join Our Community
             </h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              Get support, share your projects, and contribute to the QuickJS
+              Get support, share your projects, and contribute to the Qyro-js
               Docs ecosystem.
             </p>
           </div>

@@ -21,8 +21,8 @@ const CallToAction = () => {
                 Ready to Build Amazing Docs?
               </h2>
               <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Start creating beautiful documentation in minutes with QuickJS
-                Docs. Follow these simple steps to get started.
+                Start creating beautiful documentation in minutes with Qyro-js
+                docs. Follow these simple steps to get started.
               </p>
             </div>
             <div className="space-y-4">
@@ -33,7 +33,7 @@ const CallToAction = () => {
                 <div className="space-y-1">
                   <h3 className="text-xl font-bold">Install the CLI</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    Install the QuickJS Docs CLI globally using npm.
+                    Install the Qyro-js docs CLI globally using npm.
                   </p>
                   <div className="rounded-lg border bg-muted p-2 mt-2">
                     <pre className="text-sm text-muted-foreground overflow-x-auto">
@@ -99,7 +99,7 @@ const CallToAction = () => {
                 <div className="space-y-2">
                   <h3 className="text-2xl font-bold">Try It Now</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    Experience the simplicity and power of QuickJS Docs with our
+                    Experience the simplicity and power of Qyro-js docs with our
                     interactive demo.
                   </p>
                 </div>
@@ -117,7 +117,7 @@ const CallToAction = () => {
                         <br />
                         Installing dependencies...
                         <br />
-                        Success! Created my-project
+                        Success! Created my-docs
                         <br />
                         <br />
                         Next steps:
@@ -128,14 +128,22 @@ const CallToAction = () => {
                   </div>
                 </div>
                 <div className="flex flex-col gap-2">
-                  <Button className="w-full bg-gradient-to-r from-teal-500 to-purple-600 hover:from-teal-600 hover:to-purple-700">
-                    Download Qyro-js
+                  <Button
+                    asChild
+                    className="w-full bg-gradient-to-r from-teal-500 to-purple-600 hover:from-teal-600 hover:to-purple-700"
+                  >
+                    <Link
+                      target="_blank"
+                      href="https://github.com/maulydev/qyro-js"
+                    >
+                      Download Qyro-js
+                    </Link>
                   </Button>
-                  <Link href="https://qyro-js.vercel.app/">
-                    <Button asChild variant="outline" className="w-full">
+                  <Button asChild variant="outline" className="w-full">
+                    <Link target="_blank" href="https://qyro-js.vercel.app/">
                       View Documentation
-                    </Button>
-                  </Link>
+                    </Link>
+                  </Button>
                 </div>
               </div>
             </motion.div>
